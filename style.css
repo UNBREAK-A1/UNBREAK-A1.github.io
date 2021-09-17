@@ -1,0 +1,104 @@
+/* Body */
+body {
+  background-color: white;
+}
+
+/* Navbar */
+
+.search {
+  margin-left: 60%;
+  color: black;
+}
+
+.notif {
+  color: black;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+/* carousel */
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #009A97 !important;
+  position: relative;
+  top: 40px;
+}
+
+/* service */
+h2 {
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.opsi {
+  width: 100%;
+  margin: auto;
+}
+
+.img-fluid {
+  padding: 15px;
+}
+
+h5 {
+  color: #009A97;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h6 {
+  text-align: center;
+  float: right;
+  padding: 5%;
+  background-color: #e6e6e6;
+  width: 70%;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+p {
+  font-size: 13px !important;
+  line-height: 0;
+}
+
+.konsultan {
+  background-color: #e6e6e6;
+}
+
+.container-fluid {
+  background-color: white;
+  animation: card-body-animasi 0.7s;
+}
+
+.bi-chat-left-text {
+  width: 50%;
+  color: #1FD2FF;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.orang {
+  padding: 4% 0% 4% 0%;
+}
+
+.foto {
+  border-radius: 50%;
+  border: 2px solid #009A97;
+}
+
+/* animasi */
+@keyframes card-body-animasi {
+  from {
+    transform: translate(-1000px, 0px);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
